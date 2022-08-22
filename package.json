@@ -1,0 +1,24 @@
+{
+  "name": "poc-post-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve & npm run open",
+    "serve": "http-server -p 8081",
+    "open": "open http://localhost:8081/src/html/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": "^16"
+  }
+}
