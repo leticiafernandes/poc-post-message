@@ -1,0 +1,32 @@
+#container__parent {
+    align-items: center;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 10px;
+    width: 100vw;
+}
+#container__child {
+    align-items: center;
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+#container__data {
+    text-align: center;
+}
+#message-parent, #message-child {
+    color: #4f6f7e;
+    font-size: 22px;
+    font-weight: bold;
+}
+button {
+    background-color: #7ae277;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
